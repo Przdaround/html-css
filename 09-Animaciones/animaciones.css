@@ -1,0 +1,52 @@
+.padre {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(62, 192, 197);
+}
+
+.hijo {
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    /*transition: all 1s ease-in-out ;*/
+    
+}
+
+.padre:hover .hijo {
+    animation: traslacion 4s forwards infinite;
+    /*transform: translateX(100%);
+    background-color: black;*/
+}
+.hijo p {
+    display: flex;
+    flex-direction: column;
+    color: aqua;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    align-items: center;
+    
+    justify-content: center;
+}
+
+@keyframes traslacion {
+    0%{
+        background-color: rgb(137, 227, 234);
+        transform: translateX(0%) translateY(0%);
+    }
+    25%{
+        
+        transform: translateX(100%) translateY(0%) ; 
+    }
+    50%{
+        background-color: rgb(241, 232, 111);
+        transform: translateX(100%) translateY(100%);     
+    }
+    75%{
+        
+        transform: translateX(0%) translateY(100%);
+    }
+    100%{
+        background-color: rgb(6, 52, 59);
+        transform: translateX(0%) translateY(0%);
+    }
+}

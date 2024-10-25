@@ -1,0 +1,8 @@
+.contenedor p {
+    color: green;
+}
+
+.contenedor #boton-contenedor {
+    color: aquamarine;
+    background-color: black;
+}

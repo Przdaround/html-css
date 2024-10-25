@@ -1,0 +1,35 @@
+h1  {
+    color:aquamarine;
+}
+
+/*Estoy propando colores y fuentes*/
+p{ 
+    color:blueviolet;
+    font-size: 20pt;
+    color:brown; 
+}
+
+p#primera-noticia {
+    color:coral;
+    font-size: 12pt;
+}
+
+#segunda-noticia {
+    color:darkcyan;
+    font-size: 12pt;
+}
+
+.encabezado {
+    color: chartreuse;
+    font-size: 25pt;
+
+}
+
+
+*.warning{
+    color:fuchsia;
+}
+
+.autor , .fecha , .ubi {
+    text-decoration: underline;
+}

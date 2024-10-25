@@ -1,0 +1,48 @@
+.colores{
+    color: coral;
+}
+.color-hexadecimal {
+    color: #4F4789;
+}
+.color-rgb{
+    color: rgb(100, 0, 200
+    )
+}
+
+.color-rgba {
+    color: rgba(5, 100,50, 0.8
+
+    )
+}
+
+.fondo{
+
+    background-color: #FFFDED ;
+    background-image: url(https://img.freepik.com/free-vector/realistic-neon-lights-background_23-2148907367.jpg?size=626&ext=jpg&ga=GA1.1.1141335507.1719187200&semt=ais_user);
+    background-position: center , center;
+}
+.fondo-int{
+    background-image: url("images/fondo.jpg");
+
+}
+
+.ancho{
+    background-color: #4F4789;
+    width: 200px ;
+}
+
+.alto {
+    background-color: rgb(23, 125, 188);
+    height: 300px;
+    width: 150px;
+
+}
+
+.tarjeta {
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    border-width: 1px;
+    padding: 10px 20px;
+    margin: 40px 20px;
+
+}
